@@ -6,7 +6,7 @@ import { IERC20, IERC20Metadata } from "@openzeppelin/contracts/token/ERC20/exte
 import { Pausable } from "@openzeppelin/contracts/utils/Pausable.sol";
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
 
-import { Fee } from "@layerzerolabs/oft-evm/contracts/Fee.sol";
+import { Fee } from "./mock/Fee.sol";
 import { OFTCore, SendParam, OFTLimit, OFTFeeDetail, OFTReceipt } from "@layerzerolabs/oft-evm/contracts/OFTCore.sol";
 
 import { ISkyOFT } from "./interfaces/ISkyOFT.sol";
